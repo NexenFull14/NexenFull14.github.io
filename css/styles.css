@@ -1,0 +1,81 @@
+body {
+    background: #ffc96b;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 1rem;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    font-size: larger;
+    margin: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #111;
+    padding: .7rem;
+    border-radius: 30px;
+    transition: all 150ms linear;
+}
+
+.nav-list a:hover {
+    background: #111;
+    color: #fff;
+}
+
+.button {
+    color: #fff;
+    background: #111;
+    border: none;
+    border-radius: 30px;
+    padding: .7rem;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#log-in {
+    transition: all 150ms linear;
+}
+
+#log-in:hover {
+    background: #fff;
+    color: #111;
+}
+
+nav img {
+    width: 5rem;
+}
+
+.title {
+    font-size: 50px;
+    margin-top: 8rem;
+}
+
+.text {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#kategorije {
+    transition: all 150ms linear;
+}
+
+#kategorije:hover {
+    background: #fff;
+    color: #111;
+}
