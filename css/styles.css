@@ -14,7 +14,7 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     padding: 1rem;
     align-items: center;
@@ -85,8 +85,10 @@ nav img:hover {
 .white-hive {
     position: absolute;
     z-index: -1;
-    left: 9rem;
-    bottom: 18rem;
+    margin-inline: -30rem;
+    margin-top: -5rem;
+    opacity: 1;
+    transition: all 3s ease-in-out;
 }
 
 #kategorije {
