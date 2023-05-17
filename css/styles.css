@@ -110,7 +110,7 @@ footer {
     padding-block: 1.5rem;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 400px) {
     body {
         background: #ffc96b;
     }
