@@ -9,8 +9,6 @@ loginButton.addEventListener("click", () => {
 });
 
 animateTextElements = () => {
-  let id = null;
-  let pos = 0;
   clearInterval(id);
   id = setInterval(() => {
     if (pos <= 50) {

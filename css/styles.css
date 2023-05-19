@@ -8,9 +8,10 @@ html {
 
 body {
     background-image: url("../svg/wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: large;
@@ -69,6 +70,7 @@ nav {
 
 nav img {
     width: 5rem;
+    min-width: 2rem;
 }
 
 .title {
