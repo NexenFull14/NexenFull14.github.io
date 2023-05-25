@@ -1,6 +1,7 @@
 const loginButton = document.getElementById("log-in");
 const animatedTitle = document.getElementById("animated-title");
 const animatedText = document.getElementById("animated-text");
+const loginCheckBox = document.getElementById("login/signin");
 let id = null;
 let pos = 0;
 

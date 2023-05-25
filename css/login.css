@@ -1,0 +1,62 @@
+@import url("../fonts/static/PlayfairDisplay-Regular.ttf");
+
+body {
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    display: grid;
+    background: #fff;
+    gap: 1rem;
+    border-radius: 20px;
+    width: min(75%, 30rem);
+    padding: 1rem;
+    border-bottom: 4px solid #1a1a1a;
+    font-size: larger;
+    margin-bottom: 15rem;
+}
+
+.logo {
+    width: 3.5rem;
+    min-width: 2rem;
+}
+
+form {
+    display: grid;
+    text-align: left;
+    gap: .5rem;
+}
+
+form input {
+    height: 25px;
+    font-size: large;
+    width: max(100%, 9rem);
+}
+
+form a {
+    width: fit-content;
+    text-decoration: none;
+}
+
+.sign-in {
+    display: none;
+}
+
+.submitButton {
+    width: min(100%, 130px);
+    margin: 2rem auto;
+    height: min(100%, 45px);
+    background: #ffc96b;
+    color: #fff;
+    font-size: large;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    transition: all 200ms ease-in;
+}
+
+.submitButton:hover {
+    transform: translateY(-4px);
+}

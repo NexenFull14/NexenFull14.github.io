@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,45 @@
     <link rel="stylesheet" href="css/login.css">
     <title>Uloguj se</title>
 </head>
+
 <body>
+    <a href="index.html"><img src="svg/logo.png" alt="logo" class="logo"></a>
+    
     <section class="container">
-        <h3>Uloguj se na našu stranicu</h3>
+        <div class="log-in article">
+            <h3>Uloguj se na našu stranicu</h3>
+            <form action="" method="post">
+                <label for="email">Email</label>
+                <input type="email" placeholder="example@gmail.com" name="email" id="emailLogIn" required>
+                <label for="password">Šifra</label>
+                <input type="password" name="password" id="passwordLogIn" min="8" max="16" placeholder="*****" required>
+                <a href="#">Zaboravili ste lozinku?</a>
+                <input type="button" value="Uloguj se" id="submitLogin" class="submitButton">
+            </form>
+        </div>
+
+        <div class="sign-in article">
+            <h3>Registruj se na našu stranicu</h3>
+            <form action="#" method="post">
+                <label for="name">Ime</label>
+                <input type="text" placeholder="John" name="name" id="nameInput" required>
+                <label for="prezime">Prezime</label>
+                <input type="text" placeholder="Doe" name="prezime" id="prezimeInput" required>
+                <label for="email">Email</label>
+                <input type="email" placeholder="example@gmail.com" name="email" id="emailSignIn" required>
+                <label for="password">Šifra</label>
+                <input type="password" placeholder="*****" name="password" id="passwordSignIn" min="8" max="16" required>
+                <button id="submitSignin" class="submitButton">Registruj se</button>
+            </form>
+        </div>
+
+        <div class="login-signin-button">
+            <label for="login/signin">Log In</label>
+            <input type="checkbox" name="login/signin" id="login/signin">
+            <label for="login/signin">Sign In</label>
+        </div>
     </section>
     <script src="js/script.js"></script>
 </body>
+
 </html>
